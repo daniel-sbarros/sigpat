@@ -63,11 +63,9 @@ export default function App() {
                     <div>Qnt_Pedidos_Q_Encerra_em_7_Dias</div>
                 </div>
             </div>
-            {/* <Row className="mx-0"> */}
-                <Button variant="primary">Button #1</Button>
+                {/* <Button variant="primary">Button #1</Button>
                 <Button variant="secondary" className="mx-2">Button #2</Button>
-                <Button variant="success">Button #3</Button>
-            {/* </Row> */}
+                <Button variant="success">Button #3</Button> */}
         </section>
       </main>
     </>
