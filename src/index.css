@@ -25,21 +25,23 @@ code {
 }
 
 :is(.col, .col-4, .col-8) {
-  border: 1px solid red; 
+  /* border: 1px solid red;  */
 }
 
 .container-lg {
   height: 100%;
-  background-color: #ccc;
+  background-color: #f1f1f1;
 }
 
 header {
   height: var(--tam-cabecario);
+  background-color: green;
+  color: white;
 }
 
 main {
   height: calc(100% - var(--tam-cabecario));
-  background: aqua;
+  /* background: aqua; */
 }
 
 aside {
@@ -73,6 +75,6 @@ aside, .display {
   height: 300px;
 }
 
-.display {
+/* .display {
   background-color: greenyellow;
-}
+} */

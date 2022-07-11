@@ -14,6 +14,7 @@ yarn
 ```bash
 yarn add md5
 yarn add mysql
+yarn add react-bootstrap bootstrap
 ```
 * Para subir o servidor digite:
 ```bash
@@ -23,7 +24,10 @@ yarn dev
 ## Plugins Instalados
 * O Sistema utiliza o banco de dados MySQL[^mysql] 
 * Usuário e senha utilizam a criptografia MD5[^md5].
+* Foi utilizado a biblioteca Bootstrap[^bootstrap]
+
 
 
 [^md5]: [Criptografia MD5](https://yarnpkg.com/package/md5)
 [^mysql]: [Plugin MySQL](https://yarn.pm/mysql)
+[^bootstrap]: [Bootstrap Docs](https://react-bootstrap.github.io/getting-started/introduction/)

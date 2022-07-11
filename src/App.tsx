@@ -1,5 +1,5 @@
 
-import Home from './Home';
+import Home from './pages/Home';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Button } from 'react-bootstrap';
 
