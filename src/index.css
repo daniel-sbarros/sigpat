@@ -3,7 +3,9 @@ html, body {
 }
 
 :root {
-  --tam-cabecario: 190px;
+  --tam-cabecario: 185px;
+  --cor-1: #198754;
+  --cor-2: #eeffee;
 }
 
 body {
@@ -24,24 +26,25 @@ code {
   text-align: right; border-radius: 1px solid yellow;
 }
 
-:is(.col, .col-4, .col-8) {
-  /* border: 1px solid red;  */
-}
+/* :is(.col, .col-4, .col-8) {
+  border: 1px solid red; 
+} */
 
 .container-lg {
   height: 100%;
-  background-color: #f1f1f1;
+  background-color: var(--cor-2);
 }
 
 header {
   height: var(--tam-cabecario);
-  background-color: green;
+  background-color: var(--cor-1);
   color: white;
 }
 
 main {
   height: calc(100% - var(--tam-cabecario));
   /* background: aqua; */
+  padding: 10px;
 }
 
 aside {
@@ -58,13 +61,12 @@ aside button {
   width: 100%;
 }
 
-aside, .display {
+/* aside, .display {
   padding: 10px;
-}
+} */
 
 .display > .row > .col {
-  margin: 5px;
-
+  margin: 2px;
 }
 
 .display > .row:first-child {
@@ -75,6 +77,6 @@ aside, .display {
   height: 300px;
 }
 
-/* .display {
-  background-color: greenyellow;
+/* .resultados {
+  border: 1px solid var(--cor-1);
 } */
