@@ -6,6 +6,7 @@
 * Yarn instalado;
 
 ## Como Instalar
+### Na pasta Client
 * Após Baixar do GitHub execute no Terminal os comandos abaixo:
 ```bash
 yarn
@@ -21,10 +22,20 @@ yarn add @fortawesome/free-solid-svg-icons
 yarn add @fortawesome/free-regular-svg-icons
 
 ```
-* Para subir o servidor digite:
+* Para subir o Client digite:
 ```bash
 yarn dev
 ```
+### Na pasta Server
+* Instalar os plugins:
+```bash
+yarn add mysql express nodemon cors
+```
+* Parar subir o Server
+```bash
+npm run devStart
+```
+
 
 ## Plugins Instalados
 * O Sistema utiliza o banco de dados MySQL[^mysql] 
