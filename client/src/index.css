@@ -104,3 +104,11 @@ aside button {
   text-align: center;
   margin: 5vh;
 }
+
+.form-field, button{
+  margin: 10px;
+}
+
+.register-form{
+  margin: 0 auto;
+}
