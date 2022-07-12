@@ -15,6 +15,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
 }
 
 code {
@@ -69,5 +70,37 @@ aside button {
 }
 
 .display > .row:not(:first-child) {
-  height: 300px;
+  height: 200px;
+}
+
+.display {
+  height: calc(100vh - var(--tam-cabecario) - 20px );
+  overflow: auto;
+}
+
+.display h2 {
+  text-align: center;
+}
+
+.display form {
+  margin-top: 10vh;
+}
+
+.login-header {
+  height: 55px;
+}
+
+.login-form {
+  margin: 0 auto;
+  /* background-color: #198754; */
+}
+
+.login-btn {
+  width: 20vw;
+}
+
+.login-titulo {
+  color: var(--cor-1);
+  text-align: center;
+  margin: 5vh;
 }

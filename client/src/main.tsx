@@ -6,6 +6,8 @@ import './index.css'
 import Andamento from './pages/andamento'
 import Pesquisa from './pages/pesquisa'
 import CadastrarPatente from './pages/cadastrarPatente'
+import CadastrarUser from './pages/cadastrar-user'
+import Login from './pages/login'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <BrowserRouter>
@@ -14,6 +16,8 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
       <Route path="/andamento" element={<Andamento />} />
       <Route path="/pesquisa" element={<Pesquisa />} />
       <Route path="/cadastrar-patente" element={<CadastrarPatente />} />
+      <Route path="/login" element={<Login />} />
+      <Route path="/cadastrar-user" element={<CadastrarUser />} />
       {/* <Route path="/" element={<App />} >
         <Route index element={<Home />} />
         <Route path=":invoiceId" element={<Invoice />} />
